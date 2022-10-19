@@ -1,0 +1,22 @@
+.about__section{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     background-color: var(--black);
+     padding: 20px 5px;
+}
+
+@media screen and (max-width: 676px){
+     .about__section{
+          flex-direction: column-reverse;
+     }
+}
+@media screen and (max-width: 528px){
+   .about__section{
+     padding:  20px 25px;
+   }
+
+}
+
+
+

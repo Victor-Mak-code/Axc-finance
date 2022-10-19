@@ -1,0 +1,13 @@
+.mobile__icon{
+    font-size: 20px;
+    
+}
+.mobile__nav--icon{
+    display: none;
+}
+
+@media screen and (max-width: 741px){
+    .mobile__nav--icon{
+        display: flex;
+    }
+}

@@ -1,0 +1,28 @@
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+.nav__link{
+    border-radius: 100px;
+    color: var(--black);
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 20px;
+    transition: all .3s ease-in-out;
+}
+.nav__link:hover{
+    background-color: #c0c0c033;
+}
+@media screen and (max-width: 934px){
+   .nav__link{
+        padding: 10px 10px;
+   }
+}
+
+@media screen and (max-width: 741px){
+   .nav__link{
+        display: none;
+   }
+}
+
+

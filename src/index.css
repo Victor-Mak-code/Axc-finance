@@ -1,0 +1,23 @@
+:root{
+ --black: #000;
+  --white: #fff;
+  --fill-color: #eee;
+  --silver-color: silver;
+  --matte-color: #28282b;
+  --shadow: 3px 2px 3px rgba(0,0,0,.2);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Poppins,sans-serif;
+}
+input,button{
+    border: none ;
+    font-family: inherit;
+}
+a{
+  text-decoration: none;
+}

@@ -1,0 +1,10 @@
+.footer{
+    background-color: var(--white);
+    padding: 30px;
+}
+
+@media screen and (max-width: 621px){
+    .footer{
+        padding: 25px;
+    }
+}

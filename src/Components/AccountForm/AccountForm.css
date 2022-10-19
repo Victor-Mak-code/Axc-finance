@@ -1,0 +1,17 @@
+.account__formsection{
+     width: 31%;
+     background-color: var(--white);
+     padding: 20px 30px;
+}
+@media screen and (max-width: 974px){
+     .account__formsection{
+          width: 40%;
+     }
+}
+
+@media screen and (max-width: 577px){
+     .account__formsection{
+          width: 90%;
+     }
+}
+

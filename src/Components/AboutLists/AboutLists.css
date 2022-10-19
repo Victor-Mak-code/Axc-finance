@@ -1,0 +1,13 @@
+.about__lists{
+    color: var(--white);
+}
+.about__list{
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 884px){
+    .about__lists h1{
+        font-size: 20px;
+    }
+}

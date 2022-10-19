@@ -1,0 +1,21 @@
+.mobile__menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--white);
+    z-index: 3000;
+}
+.menu__content{
+    padding: 20px;
+}
+.close__icon{
+    text-align: right;
+}
+.menu__link{
+    display: block;
+    padding: 5px 0;
+    color: var(--black);
+    font-weight: 500;
+}

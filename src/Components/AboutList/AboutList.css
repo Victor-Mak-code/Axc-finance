@@ -1,0 +1,17 @@
+.about__list{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.about__list  span{
+    margin-left: 5px;
+}
+
+@media screen and (max-width: 884px){
+    .about__list span {
+        font-size: 13px;
+    }
+    .about__icon{
+        font-size: 12px;
+    }
+}

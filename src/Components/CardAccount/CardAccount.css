@@ -1,0 +1,19 @@
+.card__edit{
+    background-color: var(--fill-color);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+.account__icon{
+    font-size: 50px;
+    color: rgb(179, 177, 177);
+}
+.accounts__btn{
+    margin: 10px 0;
+}
+
+@media screen and (max-width: 997px){
+    .account__icon{
+        font-size: 30px;
+    }
+};

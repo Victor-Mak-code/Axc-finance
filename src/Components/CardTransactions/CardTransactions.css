@@ -1,0 +1,44 @@
+.card__transaction__main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.card__transactions--box h3{
+    color: var(--fill-color);
+    margin: 5px 10px;
+}
+.card__transactions h3{
+    color: var(--fill-color);
+}
+.card__transactions--btn{
+    margin: 10px 0;
+}
+.card__transaction{
+    display: flex;
+    align-items: center;
+    background-color: var(--white) !important;
+    padding: 10px 22px;
+    border-radius: 10px;
+}
+.check__icon{
+    background-color: #10c910;
+    color: var(--white);
+    padding: 6px;
+    font-size: 27px;
+    border-radius: 100px;
+}
+.transaction__name{
+    margin: 0 12px;
+}
+
+@media screen and (max-width: 997px){
+    .card__transaction span{
+        font-size:  14px;
+    }
+    .check__icon{
+        font-size: 20px;
+    }
+
+    .card__transaction__main{
+        grid-template-columns:  repeat(1, 1fr)
+    }
+};

@@ -1,0 +1,28 @@
+.footer2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 0;
+}
+.footer__link{
+    display: block;
+    color: var(--matte-color);
+    margin-right: 55px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+@media screen and (max-width: 530px){
+    .footer2{
+        display: grid;
+        grid-template-columns:  repeat(2, 1fr);
+        grid-gap:  10px;
+        align-items: unset;
+    }
+    .footer__link{
+        font-size: 12px;
+    }
+    .footer__links h3{
+        font-size: 17px;
+    }
+}

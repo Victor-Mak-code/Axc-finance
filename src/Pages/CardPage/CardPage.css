@@ -1,0 +1,44 @@
+.card__page .hero__img{
+    width: 24%;
+}
+.card__page .about__list{
+    color: var(--fill-color);
+}
+.card__page .about__section{
+    padding: 53px 0;
+}
+.transaction-box-card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+}
+
+.transactions__box-app  h3{
+    color: var(--fill-color);
+    margin: 10px 0;
+}
+
+
+@media screen and (max-width: 997px){
+ .transaction-box-card{
+    grid-template-columns: repeat(1, 1fr);
+}
+
+}
+
+@media screen and (max-width: 886px){
+    .card__page .hero__img{
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 545px){
+    .card__page .hero__img{
+        width: 60%;
+    }   
+
+    .transactions__box-app{
+    width: 80%;
+}
+}
+

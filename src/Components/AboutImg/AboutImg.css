@@ -1,0 +1,19 @@
+.about__img{
+    width: 40%;
+}
+.about__img img{
+    width: 100%;
+}
+
+@media screen and (max-width: 676px){
+     .about__img{
+    width: 70%;
+}
+}
+
+@media screen and (max-width: 528px){
+    .about__img{
+        width: 90%;
+   }
+
+}

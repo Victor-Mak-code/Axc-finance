@@ -1,0 +1,14 @@
+.logo__box img{
+    width: 80px;
+}
+@media screen and (max-width: 934px){
+   .logo__box img{
+        width: 60px;
+   }
+}
+
+@media screen and (max-width: 600px){
+   .logo__box img{
+        width: 50px;
+   }
+}

@@ -1,0 +1,15 @@
+.hero__section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url('../../Assets/images/heroImg.webp');
+    padding: 30px 0;
+}
+@media screen and (max-width: 676px){
+   .hero__section{
+     flex-direction: column;
+     
+   }
+}
+
+

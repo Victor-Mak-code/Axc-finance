@@ -1,0 +1,21 @@
+.header__section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--white);
+    border: 2px solid var(--fill-color);
+}
+
+@media screen and (max-width: 741px){
+   .header__section .btn{
+        display: none;
+   }
+   .header__section{
+        justify-content: space-between;
+        padding: 20px 50px;
+   }
+}
+
+
+
